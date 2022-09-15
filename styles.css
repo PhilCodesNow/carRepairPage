@@ -1,43 +1,26 @@
 *{
     padding: none;
-    margin: none;
+    margin: 0;
 }
 body{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 .mechanic-img{
+    background-color: aqua;
+    width: 50%;
     height: 100%;
-    width: 45%;
-    margin: 0 auto 0 0;
-    overflow: hidden;
-    background-color: #f7f7f7;
     display: inline-block;
 }
-
-/* .mechanic-img img{
-    position: fixed;
-    bottom: -10px;
-    left: 0%;
-    height: auto;
-    max-width: 100%;
-    padding: 10% 0 0 0;
-} */
-.tire-img{
-    background-color: black;
-    display: inline-block;    height: 50%;
-    width: 30%;
-    margin: 0 0 30% 0;
-}
-.about-us{
-    background-color: red;
-    display: inline-block;    height: 50%;
-    width: 30%;
-    
+.middle-section{
+    background-color: blue;
+    height: 100%;
+    width: 35%;
+    display: inline-block;
 }
 .media{
-    background-color: pink;
-    display: inline-block;    width: 25%;
+    background-color: blueviolet;
     height: 100%;
-    margin: 0 0 0 auto;
+    width: 14%;
+    display: inline-block;
 }
